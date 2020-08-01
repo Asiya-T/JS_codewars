@@ -12,10 +12,7 @@ for (let i = 0; i < CURRENCY.length; i++) {
     console.log ( CURRENCY[i] );
 }
 CURRENCY.push (430);
-console.log (CURRENCY)
-console.log (CURRENCY.toString ())
-console.log(CURRENCY.join('*'))
-console.log (CURRENCY.pop())
+
 CURRENCY.push ("USD");
 console.log (CURRENCY)
 console.log (CURRENCY.shift());
